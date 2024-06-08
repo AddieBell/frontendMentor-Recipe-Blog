@@ -1,0 +1,82 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.listHeader {
+    font-family: "outfit", sans-serif;
+    font-weight: 500;
+}
+
+table {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(246, 230, 224);
+   
+}
+.card {
+    max-height: 1440px;
+    max-width: 500px;
+    padding: 30px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+.nutritionRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-inline: 50px;
+    border-bottom: 2px solid lightgrey;
+}
+
+td {
+    padding: 10px 40px;
+}
+
+#lastRow {
+    border: none;
+}
+
+#pinkBackground {
+    background-color: rgb(251, 234, 237);
+    padding: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    
+}
+
+.lineSpacing li {
+    margin-bottom: 12px;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+.burgundyText {
+    color: darkred;
+}
+
+
+img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}   
+
+h1, h2 {
+    font-family: "Young Serif", serif;
+    font-weight: normal;
+}
